@@ -1,0 +1,978 @@
+*
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+h2
+{
+   font-size:medium; 
+    font-weight: bold;
+}
+
+h3
+{
+    font-size: small;
+}
+
+p
+{
+    font-size: small;
+}
+
+h4
+{
+    font-size: small;
+    font-weight: bold;
+}
+
+header
+{
+    margin:16px;
+}
+
+.card3 a
+{
+    text-decoration: none;
+    color:black
+}
+
+.card3 a:hover
+{
+    opacity: 0.2;
+}
+
+
+.container
+{
+    margin:15px;
+    width:100%;
+    height: 600px;
+
+}
+
+.container2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.rowrei
+{
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.row
+{
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.rowsx
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+#col1
+{
+    width: 60%;
+    background-color: #F2F2F2;;
+    height: 620px;
+    border-radius: 10px;
+}
+
+#col2
+{
+    width: 30%;
+    margin-left:20px;
+    height:620px; /*700px;*/
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+#titre_col2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-color
+{
+    background-color:#0065FC;
+    color:white;
+    height: 48px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border:none;
+
+}
+
+
+.btn-color:hover
+{
+    background-color:#0d336d;
+    cursor: pointer;
+
+}
+
+.in-color
+{
+    background-color:white;
+    font-weight:bold;
+    height: 48px;
+    border:solid #F2F2F2;
+
+}
+.lb-color
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:white;
+    font-weight:bold;
+    height: 48px;
+    width: 40px;
+    background-color:#F2F2F2;
+    border:solid #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.formulaire
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bleu
+{
+    color:#0065FC;
+}
+    
+.bleu_clair
+{
+    color:#DEEBFF;
+}
+
+.gris
+{
+    color:#F2F2F2;
+}
+
+.span-up
+{
+    background-color:#DEEBFF ;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.btn-filter
+{
+    display: flex;
+    flex-wrap: nowrap;
+    border:solid;
+    border-radius: 50px;
+    margin-top: 8px;
+    height:50px;
+    width: 200px;
+    border-color:#F2F2F2;
+    margin-left:5px;
+    padding-bottom: 6px;
+}
+
+.badge
+{
+    border-radius: 50px;
+    background-color: #DEEBFF;
+}
+
+.card1
+{
+    width: 33%;
+    height: 50%;
+    background-color: black;
+    margin:5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0);
+}
+.card10
+{
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    border-radius: 15px;
+    margin:5px;
+
+}
+
+
+.card2
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(55, 30, 196);
+    margin:5px;
+    border-radius: 5px;
+}
+
+.card20
+{
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 15px;
+    margin:5px;
+}
+
+.card3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 40%;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    
+}
+
+.card3_ichi
+{
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    /*justify-content:space-between;*/
+    width: 90%;
+    height: 565px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.card4
+{   
+    height: 90%;
+    display:flex;
+    flex-wrap:nowrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.card4bis
+{   
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 15px;
+}
+
+
+.card4_mod
+{ 
+
+    width: 150px;
+    height: 170px;
+    display:flex;
+    flex-wrap:nowrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 15px;
+}
+
+
+
+.card5_mod
+{   
+    width:100%;
+    height: 40%;
+    
+    display:flex;
+    flex-direction:column;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: cover;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 15px;
+
+}
+
+.lien_heberg
+{
+
+    display: block;
+    width:100%;
+    height: 100%;
+}
+
+
+
+
+.card5_mod2
+{   
+    
+    /*height: 50%;*/
+    margin: 10px;
+    display:flex;
+    flex-wrap:nowrap;
+    /*background-color: rgb(38, 34, 236);
+    border-radius: 5px;
+    background-image: url('../images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg');*/
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: cover;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 15px;
+
+}
+
+
+.card5
+{   
+    
+    height: 30%;
+    margin: 10px;
+    display:flex;
+    flex-wrap:nowrap;
+    /*background-color: rgb(38, 34, 236);
+    border-radius: 5px;
+    background-image: url('../images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    border-radius: 15px;
+
+}
+.test
+{
+    width: 100%;
+    height: 500px;
+}
+
+
+.reisetopia
+{  
+    background-image: url(../images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+
+.nicate
+{  
+    background-image: url(../images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+
+.marcus
+{  
+    background-image: url(../images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+
+.febrian_un_lit
+{  
+    background-image: url(../images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
+
+.febrian_deux_lits
+{  
+    background-image: url(../images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+
+.emilie
+{  
+    background-image: url(../images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+
+.awcrea
+{  
+    background-image: url(../images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+
+.annie
+{  
+    background-image: url(../images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+}
+
+.fred
+{  
+    background-image: url(../images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+
+.florian
+{  
+    background-image: url(../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+}
+
+.florian
+{  
+    background-image: url(../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+}
+.kevin
+{
+    background-image: url(../images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+}
+.kilyan
+{
+    background-image: url(../images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+}
+.lena
+{
+    background-image: url(../images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+}
+.paul
+{
+    background-position: bottom -100px left ;
+    background-image: url(../images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+}
+.reno
+{
+    background-image: url(../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+}
+
+.dim-img
+{   
+    display: block;
+    height: 100%;
+    width: 100%
+     
+}
+
+.imgdisplayed 
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin:8px;
+    
+}
+
+li
+{
+
+    padding: 8px;
+    padding-top: 40px;
+    border:none;
+ 
+}
+
+li a
+{
+    text-decoration: none;
+     
+}
+
+
+li a:hover
+{
+
+    padding: 8px;
+    padding-top: 40px;
+    border-top:solid #0065FC;
+    color:#0065FC
+ 
+}
+
+.lien_active
+{
+    padding: 8px;
+    padding-top: 40px;
+    border-top:solid #0065FC;
+    color:#0065FC
+}
+
+
+#topsection 
+{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+  nav
+  {
+    text-align: right;
+  }
+
+#activite
+{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#hebergements
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+    background-color: #F2F2F2;
+}
+
+footer ul
+{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+footer ul li
+{
+    padding: 0;
+}
+
+@media screen and (max-width: 992px) 
+{
+
+
+    .rowrei
+    {
+        display: flex;
+        justify-content: space-around; 
+    }
+
+
+
+    nav
+    {
+      text-align: center;
+      display:flex;
+      
+        
+    }
+
+    .imgdisplayed
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    li a:hover
+    {
+  
+      border-top:none;
+      padding-bottom: 40px;
+      border-bottom:solid #0065FC;
+      color:#0065FC
+   
+    }
+
+
+
+
+    #imagelogo
+    {
+        display:flex;
+        justify-content: center;
+    }
+  
+    #topsection 
+    {
+      width: 100%;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      
+  
+    }
+
+    #intern
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+    .row
+    {
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        
+    }
+
+    .rowsx
+    {
+        display: flex;
+        flex-wrap:nowrap;
+    }
+
+
+        .card2
+    {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction:column ;
+        margin:5px;
+        border-radius: 5px;
+    }
+
+    .card4
+    {   
+        height: 90%;
+        display:flex;
+        flex-direction:column ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        
+    }
+
+    .card4_mod
+    { 
+
+        width: 100px;
+        height: 100px;
+        display:flex;
+        flex-direction:column ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        
+    }
+
+ 
+
+    .card5
+    {   
+        
+        height: 30%;
+        margin: 10px;
+        display:flex;
+        flex-direction:column ;
+        /*background-color: rgb(38, 34, 236);
+        border-radius: 5px;
+        background-image: url('../images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg');*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        
+
+    }
+    #col1
+    {
+        width: 100%;
+        height: 550px;
+    }
+
+    #col2
+    {
+        margin-top: 100px;
+        width: 100%;
+        height: 500px;
+    }
+
+
+
+    #activite
+    {
+        margin-top: 500px;
+        margin-bottom: 50px;
+    }
+
+    #hebergements
+    {
+        
+        margin-bottom: 50px;
+    }
+
+
+
+
+    footer
+    {
+        
+        display: flex;
+        justify-content:space-around;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:768px) 
+{
+
+    .rowrei
+    {
+        display: flex;
+        justify-content: space-around; 
+    }
+
+
+
+    nav
+    {
+      text-align: center;
+      display:flex;
+      
+        
+    }
+
+    .imgdisplayed
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    ul 
+    {
+        list-style-type: none;
+        margin:0px;
+        text-align: left;
+        
+    }
+    
+    li
+    {
+    
+        padding:0px;
+        padding-top: 40px;
+        border:none;
+     
+    }
+
+
+    li a:hover
+    {
+  
+      border-top:none;
+      padding-bottom: 40px;
+      border-bottom:solid #0065FC;
+      color:#0065FC
+   
+    }
+
+
+
+
+    #imagelogo
+    {
+        display:flex;
+        justify-content: center;
+    }
+  
+    #topsection 
+    {
+      width: 100%;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      
+  
+    }
+
+    #intern
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .row
+    {
+        display: block;
+       
+        justify-content: center;
+    }
+
+    .rowsx
+    {
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+    }
+        .card2
+    {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction:column ;
+        margin:5px;
+        border-radius: 5px;
+    }
+
+    .card4
+    {   
+        height: 90%;
+        display:flex;
+        flex-direction:column ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        
+    }
+
+    .card4_mod
+    { 
+
+        width: 100px;
+        height: 100px;
+        display:flex;
+        flex-direction:column ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        
+    }
+
+    .card5_mod2
+    {   
+        
+        height: 200px;
+        margin: 10px;
+        display:flex;
+        flex-wrap:nowrap;
+        /*background-color: rgb(38, 34, 236);
+        border-radius: 5px;
+        background-image: url('../images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg');*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        border-radius: 15px;
+
+    }
+
+    .card5
+    {   
+        
+        height: 30%;
+        margin: 10px;
+        display:flex;
+        flex-direction:column ;
+        /*background-color: rgb(38, 34, 236);
+        border-radius: 5px;
+        background-image: url('../images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg');*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        
+
+    }
+    #col1
+    {
+        display: block;
+        /*flex-direction: column;*/
+        width: 100%;
+        height:auto; /*700px;*/
+    }
+
+    #col2
+    {
+        /*margin-top: 1000px;*/
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .container2
+    {
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    .card3
+    {
+        display: flex;
+        flex-direction: column;
+        /*justify-content:space-between;*/
+        width: 100%;
+        height: 400px;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+
+    #activite
+    {
+        margin-top: 1500px;
+        margin-bottom: 1000px;
+    }
+
+    #hebergements
+    {
+        
+        margin-bottom: 50px;
+    }
+
+
+    .card4bis
+        {   
+            width:100%;
+            height: 30%;
+            margin: 10px;
+            display:flex;
+            flex-direction:column;
+            /*background-color: rgb(38, 34, 236);
+            border-radius: 5px;
+            background-image: url('../images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg');*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 2px 2px 2px gray;
+            border-radius: 15px;
+
+    }
+
+  /*#activite > .container
+    {
+        background-color: yellow;
+    }
+
+    #hebergements .row
+    {
+        background-color: red;
+        
+    }*/
+
+
+    footer
+    {
+        margin-top: 900px;
+        display: flex;
+        justify-content:space-around;
+    }
+
+
+
+}
